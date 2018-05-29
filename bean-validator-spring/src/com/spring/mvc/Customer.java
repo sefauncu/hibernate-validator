@@ -9,7 +9,7 @@ import javax.validation.constraints.Size;
 import com.spring.mvc.validation.CourseCode;
 
 public class Customer {
-//customer
+
 	private String firstName;
 	
 	@NotNull(message="is required")
